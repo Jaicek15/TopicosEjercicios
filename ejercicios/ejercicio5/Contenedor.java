@@ -2,7 +2,7 @@ package ejercicios.ejercicio5;
 
 import java.awt.*;
 
-public class Contenedor extends Canvas{
+public class Contenedor extends Canvas {
 
     private static final long serialVersionUID = 1L;
     private int x, y;
@@ -19,7 +19,7 @@ public class Contenedor extends Canvas{
         g.setColor(Color.yellow);
         g.fillOval(x, y, w, h);
         g.setColor(Color.black);
-        g.fillOval(x + 30, y + 30, (int)(w * 0.30), (int)(h * 0.30));
+        g.fillOval(x + 30, y + 30, (int) (w * 0.30), (int) (h * 0.30));
     }
 
     public int getX() {
