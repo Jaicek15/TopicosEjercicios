@@ -14,12 +14,13 @@ public class VentanaCListener extends Frame implements ActionListener {
      *
      */
     private static final long serialVersionUID = 1L;
- 
+
     public VentanaCListener() {
         this.init();
         this.setSize(400, 300);
         this.setVisible(true);
     }
+
     /**
      * Inicializamos los widgets y los metemos al contenedor
      */
@@ -32,29 +33,29 @@ public class VentanaCListener extends Frame implements ActionListener {
         txt_result = new TextArea();
         this.setLayout(new BorderLayout());
         this.add(lbl_msg, BorderLayout.NORTH);
-        this.add(txt_in, BorderLayout.SOUTH);
+        this.add(txt_in, BorderLayout.NORTH);
         this.add(btn_click, BorderLayout.EAST);
         this.add(txt_result, BorderLayout.CENTER);
         this.add(btn_clear, BorderLayout.WEST);
         btn_click.addActionListener(this);
         btn_clear.addActionListener(this);
     }
+
     public static void main(String args[]) {
         VentanaCListener v = new VentanaCListener();
-        v.addWindowListener(new WindowAdapter(){
+        v.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
         });
     }
+
     @Override
     public void actionPerformed(ActionEvent arg0) {
-        /* if (isClicked)
-        {
-            btn_click.setLabel("Presioname!!!");
-        }else{
-            btn_click.setLabel("Presionado!!!");
-        } */
+        /*
+         * if (isClicked) { btn_click.setLabel("Presioname!!!"); }else{
+         * btn_click.setLabel("Presionado!!!"); }
+         */
         if (arg0.getSource() == btn_click) {
             String texto = txt_in.getText();
             txt_result.append(texto + "\n");
@@ -65,7 +66,8 @@ public class VentanaCListener extends Frame implements ActionListener {
         }
         isClicked = !isClicked;
     }
-    /** 
+
+    /**
      * Creación de los widgets
      */
     Button btn_click;
