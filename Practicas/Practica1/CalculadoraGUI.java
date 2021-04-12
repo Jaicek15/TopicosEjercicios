@@ -19,7 +19,7 @@ public class CalculadoraGUI extends JFrame {
      */
     private static final long serialVersionUID = 1L;
 
-    private OperacionesCalcu op;
+    private OperCalcu op;
 
     public CalculadoraGUI(String nombre) {
         super(nombre);
@@ -31,12 +31,12 @@ public class CalculadoraGUI extends JFrame {
 
         this.setLayout(new BorderLayout());
 
-        op = new OperacionesCalcu();
+        op = new OperCalcu();
 
         txtResul = new JTextField();
         txtResul.setEditable(false);
         txtResul.setFont(new Font("Open Sans", 1, 18));
-        txtResul.setForeground(new Color(51, 51, 51));
+        txtResul.setForeground(new Color(90, 90, 90));
         txtResul.setText("0123456789");
         txtResul.setPreferredSize(new Dimension(300, 30));
         txtResul.addKeyListener(new KeyAdapter() {
