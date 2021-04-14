@@ -39,11 +39,6 @@ public class CalculadoraGUI extends JFrame {
         txtResul.setForeground(new Color(90, 90, 90));
         txtResul.setText("0123456789");
         txtResul.setPreferredSize(new Dimension(300, 30));
-        txtResul.addKeyListener(new KeyAdapter() {
-            public void keyTyped(KeyEvent evt) {
-                txtResultadokeyTyped(evt);
-            }
-        });
 
         btnC = new JButton("C");
         btnC.setFocusable(false);
@@ -249,12 +244,6 @@ public class CalculadoraGUI extends JFrame {
     private void btnIgualActionPerformed(ActionEvent e) {
         segNum = Integer.parseInt(txtResul.getText());
         txtResul.setText(op.opResultado(operador, priNum, segNum));
-    }
-
-    private void txtResultadokeyTyped(KeyEvent evt) {
-        if (txtResul.getText().length() <= 25) {
-            txtResul.setText("Desbordamiento");
-        }
     }
 
     public static void main(String[] args) {
