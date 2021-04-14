@@ -1,0 +1,15 @@
+C:\Users\jaice\source\repos\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.exe
+C:\Users\jaice\source\repos\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.deps.json
+C:\Users\jaice\source\repos\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.runtimeconfig.json
+C:\Users\jaice\source\repos\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.runtimeconfig.dev.json
+C:\Users\jaice\source\repos\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.dll
+C:\Users\jaice\source\repos\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.pdb
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.Form1.resources
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.AssemblyInfoInputs.cache
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.AssemblyInfo.cs
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.dll
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.pdb
+C:\Users\jaice\source\repos\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.genruntimeconfig.cache
